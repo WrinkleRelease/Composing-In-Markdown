@@ -29,7 +29,7 @@ Hit the Windows key on the keyboard, type `cmd` and open a CMD window
 In CMD type `winget install --id Microsoft.VisualStudioCode -s winget`
 Or [download and install][1]
 
-Once inside of VS, go to `View > Extensions`. Search for and install the following extensions. I've also included some color themese in them I find easier to write with:
+Once inside of VS, go to `View > Extensions`. Search for and install the extensions below. I've also included some color themes  I find easier to write with:
 
 - Better Fountain
   - [Better Fountain] features
@@ -40,6 +40,42 @@ Once inside of VS, go to `View > Extensions`. Search for and install the followi
 - Gruvbox Theme
 - Gruvbox Material Icon Theme
 
+Lastly, we need to change some information in our `settings.json` file. 
+1.  Open `Settings` by clicking the gear icon in the bottom left of VS Code.
+ 2. Once inside `Settings` you will see a small icon in the upper right of that window. It looks like a document with a an arrow curving around it. Click that. 
+ 3. That should open the `settings.json` file. The code below needs to replace what is currently in your file. Highlight and delete what is in your `.json` file. Next, copy the entirity of the code below (including the `{` and `}` at the beginning and end) and paste in. Save by hitting `CTRL-S`. You might need to restart VS Code.
+
+```json
+{
+    "[markdown]": {
+    "editor.fontFamily": "\"IA Writer Duo S\", monospace",
+    // "editor.fontFamily": "\"Courier Prime\", monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 26,          
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 64,        
+    "zenMode.centerLayout": true,
+    "editor.lineNumbers": "off",
+    "editor.quickSuggestions": false,
+    "markdown.PreviewFrontMatter": "show"
+    },
+
+    "editor.fontFamily": "Consolas, 'Courier Prime', monospace",
+    "workbench.iconTheme": "gruvbox-material-icon-theme",
+    "markdown-preview-enhanced.frontMatterRenderingOption": "code block",
+    "markdown-fiction-writer.metadata.categories.summaryEnabled": true,
+    "markdown-fiction-writer.edit.disableKeybindings": false,
+    "markdown-fiction-writer.edit.easyParagraphCreation": "Shift+Enter",
+    "markdown-preview-enhanced.enableTypographer": true,
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.cursorStyle": "block",
+    
+
+}
+```
 <br/>
 
 ### | 1.4. Final Installations

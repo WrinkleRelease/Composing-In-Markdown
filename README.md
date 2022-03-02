@@ -1,6 +1,3 @@
----
-Title: Composing Fiction & Scripts with Markdown
----
 # Composing Fiction & Scripts with Markdown
 
 You can find out more on [Markdown], including a style guide, at the linked website. I've looked at a lot of different Markdown editors (and there are a lot out there, even for fiction writers), but all the truly great ones are on the Mac and they all cost money.

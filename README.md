@@ -8,7 +8,7 @@ This solution gets the job done fairly well on the cheap, and it leaves you immu
 
 ### | 1.1.  Installing `winget`
 
-`winget` is a command line package manager for CMD or Powershell, much like `apt-get` for Terminal in Linux.
+`winget` is a command line package manager for CMD or PowerShell, much like `apt-get` for Terminal in Linux.
 
 This step is optional, but it's a nice tool that  makes some tasks, including application installations, more convenient.
 
@@ -37,13 +37,14 @@ Once inside of VS, go to `View > Extensions`. Search for and install the extensi
 - Markdown Fiction Writing
   - [Markdown Fiction Writing] guide
 - Markdown Preview Enhanced
+- Spell Right
 - Gruvbox Theme
 - Gruvbox Material Icon Theme
 
 Lastly, we need to change some information in our `settings.json` file. 
 1.  Open `Settings` by clicking the gear icon in the bottom left of VS Code.
  2. Once inside `Settings` you will see a small icon in the upper right of that window. It looks like a document with a an arrow curving around it. Click that. 
- 3. That should open the `settings.json` file. The code below needs to replace what is currently in your file. Highlight and delete what is in your `.json` file. Next, copy the entirity of the code below (including the `{` and `}` at the beginning and end) and paste in. Save by hitting `CTRL-S`. You might need to restart VS Code.
+ 3. That should open the `settings.json` file. The code below needs to replace what is currently in your file. Highlight and delete what is in your `.json` file. Next, copy the entirety of the code below (including the `{` and `}` at the beginning and end) and paste in. Save by hitting `CTRL-S`. You might need to restart VS Code.
 
 ```json
 {
@@ -138,7 +139,7 @@ BL:
     City, ST 00000
 ====
 ```
-In `Fountain` syntax, the `===` immediatly following the relevant text indicates the end of the `Front Matter` and beginning of the document proper.
+In `Fountain` syntax, the `===` immediately following the relevant text indicates the end of the `Front Matter` and beginning of the document proper.
 
 <br/>
 
@@ -196,7 +197,7 @@ Change your `output` flag in the `Front Matter` to the following:
 ```yaml
 output: word_document
 ```
-Now, when you call `Pandoc` from the `Markdown Preview Enhanced` extension, it will generate a DOCX file. Go into the file, correct your word count, make sure everything is in `Courier Prime`, check the formatting situation, and change what needs changing. Ooutput to PDF and you're done.
+Now, when you call `Pandoc` from the `Markdown Preview Enhanced` extension, it will generate a DOCX file. Go into the file, correct your word count, make sure everything is in `Courier Prime`, check the formatting situation, and change what needs changing. Output to PDF and you're done.
 
 [Markdown]: https://www.markdownguide.org/
 [App Installer]: https://www.microsoft.com/en-us/p/app-installer/9nblggh4nns1?activetab=pivot:overviewtab

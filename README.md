@@ -196,7 +196,7 @@ Change your `output` flag in the `Front Matter` to the following:
 ```yaml
 output: word_document
 ```
-Now, when you call `Pandoc` from the `Markdown Preview Enhanced` extension, it will generate a DOCX file. Go into the file, correct your word count, make everything `Courier Prime`,check the formatting situation, and change what needs changing then output to PDF.
+Now, when you call `Pandoc` from the `Markdown Preview Enhanced` extension, it will generate a DOCX file. Go into the file, correct your word count, make sure everything is in `Courier Prime`, check the formatting situation, and change what needs changing. Ooutput to PDF and you're done.
 
 [Markdown]: https://www.markdownguide.org/
 [App Installer]: https://www.microsoft.com/en-us/p/app-installer/9nblggh4nns1?activetab=pivot:overviewtab

@@ -49,7 +49,6 @@ Lastly, we need to change some information in our `settings.json` file.
 {
     "[markdown]": {
     "editor.fontFamily": "\"IA Writer Duo S\", monospace",
-    // "editor.fontFamily": "\"Courier Prime\", monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
     "editor.lineHeight": 26,          

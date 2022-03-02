@@ -6,7 +6,7 @@ This solution gets the job done fairly well on the cheap, and it leaves you immu
 
 ## 1. Getting Set Up
 
-### | 1.1  Installing `winget`
+### | 1.1.  Installing `winget`
 
 `winget` is a command line package manager for CMD or Powershell, much like `apt-get` for Terminal in Linux.
 
@@ -16,13 +16,13 @@ If you'd like to use `winget`, install the [App Installer] from the Microsoft St
 
 <br/>
 
-### | 1.2 Installing Fonts
+### | 1.2. Installing Fonts
 
 I have included `Courier Prime` and `iA Writer Duo` for you to install. To do so, simply open their folders, hit `CTRL-A` to select them all, right click and select `Install` from the options given.
 
 <br/>
 
-### | 1.3 Visual Studio Code
+### | 1.3. Visual Studio Code
 
 Install Visual Studio Code With `winget`
 Hit the Windows key on the keyboard, type `cmd` and open a CMD window
@@ -44,7 +44,7 @@ Once inside of VS, go to `View > Extensions`. Search for and install the followi
 
 ### | 1.4. Final Installations
 
-#### | | 1.4.1  Install pandoc
+#### | | 1.4.1.  Install pandoc
 
 Pandoc is what converts our MD documents into DOCX or PDF. It uses templates to format the MD into manuscript format.
 
@@ -54,7 +54,7 @@ Pandoc is what converts our MD documents into DOCX or PDF. It uses templates to 
     - place `reference.docx` and `references.odt` inside of `\Roaming\pandoc`. 
     - Place `story.latex` inside `\Romaing\pandoc\templates\`
   
-#### | | 1.4.2 Install MikTeX
+#### | | 1.4.2. Install MikTeX
 
 MiKTeX is a LaTeX text setting system for Windows. It runs the modules pandoc needs.
 
@@ -86,7 +86,7 @@ MiKTeX is a LaTeX text setting system for Windows. It runs the modules pandoc ne
 
 `Better Fountain` is very easy to use for script writing. When starting a file, simply choose the language as `Fountain`. This extension even prints to PDF from inside VSC in the proper format. Following the syntax examples on their website will give you a good start. 
 
-Make sure to give your script the proper `Front Matter`. This is information that exists at the very top of the document and provides metadata. The printing engine will use this for title pages, headers, etc. Here is the front matter to one of my scripts:
+Make sure to give your script the proper `Front Matter`. This is information that exists at the very top of the document and provides metadata. The printing engine will use this for title pages, headers, etc. Here example `Front Matter` for `Fountain`:
 ```yaml
 Title: 
     _BIG PROJECT_
@@ -103,9 +103,11 @@ BL:
     City, ST 00000
 ====
 ```
-In `Fountain` syntax, the editor knows its a header because it contains `===` immediatly following.
-&nbsp;
-### | 2.2 Writing & Printing Manuscripts
+In `Fountain` syntax, the `===` immediatly following the relevant text indicates the end of the `Front Matter` and beginning of the document proper.
+
+<br/>
+
+### | 2.2. Writing & Printing Manuscripts
 
 Writing prose in Markdown is easy. There is very little we need to format as all of that is done upon export. the `Front Matter` for Markdown is slightly different. Below is an example. Notice that it begins and ends with `---`.
 
@@ -134,7 +136,7 @@ Some of the information here is for `pandoc` to use upon PDF render and some is 
 
 <br/>
 
-#### | | 2.2.1  Printing to PDF
+#### | | 2.2.1.  Printing to PDF
 The `Markdown Preview Enhanced` extension allows us to call `pandoc` without having to use the command line. Right clicking on the preview window shows output options. We'll be using the `Pandoc` option. We tell `Pandoc` what type of document to make in the `Front Matter` of our MD file.
 
 Since you put `story.latex` in the `\templates` folder, we can tell `Pandoc` to use that as our PDF reference file. It is set up to use all the information in our `Front Matter` and inject it into the document where it needs to be. So, to print to a PDF we put this in our `Front Matter`
@@ -150,9 +152,9 @@ This solution works nicely, but it has one small hiccup: I sometimes get widows 
 
 The only way I have found to solve this, if it happens, is to export to a DOCX file and *then* make the PDF from that inside of Word.
 
-<br/
+<br/>
 
-#### | | 2.2.2 Printing to DOCX
+#### | | 2.2.2. Printing to DOCX
 Remember the `reference.docx` file you put inside of the `Roaming\pandoc` folder? Open it and change the header information on the title page to your information.
 
 Change your `output` flag in the `Front Matter` to the following:
@@ -169,4 +171,3 @@ Now, when you call `Pandoc` from the `Markdown Preview Enhanced` extension, it w
 [Markdown Fiction Writing]: https://zoctarine.github.io/vscode-fiction-writer/
 [2]: https://pandoc.org/installing.html
 [3]: https://miktex.org/download
-

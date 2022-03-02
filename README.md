@@ -22,7 +22,7 @@ I have included `Courier Prime` and `iA Writer Duo` for you to install. To do so
 
 <br/>
 
-### | 1.3 -  Visual Studio Code
+### | 1.3 Visual Studio Code
 
 Install Visual Studio Code With `winget`
 Hit the Windows key on the keyboard, type `cmd` and open a CMD window
@@ -149,6 +149,8 @@ output:
 This solution works nicely, but it has one small hiccup: I sometimes get widows and orphans upon export. 
 
 The only way I have found to solve this, if it happens, is to export to a DOCX file and *then* make the PDF from that inside of Word.
+
+<br/
 
 #### | | 2.2.2 Printing to DOCX
 Remember the `reference.docx` file you put inside of the `Roaming\pandoc` folder? Open it and change the header information on the title page to your information.

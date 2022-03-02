@@ -10,7 +10,7 @@ This solution gets the job done fairly well on the cheap, and it leaves you immu
 
 `winget` is a command line package manager for CMD or Powershell, much like `apt-get` for Terminal in Linux.
 
-This step is optional, but since we will be using a command-line interface (CLI) to produce our formatted manuscripts, it makes sense to use  `winget` for app installs. `winget` is command line package manager for CMD or Powershell, much like `apt-get` for Terminal in Linux.
+This step is optional, but it's a nice tool that  makes some tasks, including application installations, more convenient.
 
 If you'd like to use `winget`, install the [App Installer] from the Microsoft Store.
 

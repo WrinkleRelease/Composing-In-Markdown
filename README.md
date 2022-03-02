@@ -146,7 +146,7 @@ output:
     pdf_engine: xeletex
     template: story.latex
 ```
-`Pandoc` will output a PDF using that template to the same directory as your Workspace. In my case, I wanted the PDF to end up in the same directory as the story file itself, so I added a `path` argument to the `Front Matter`.
+`Pandoc` will output a PDF using that template to the same directory as your Workspace. In my case, I wanted the PDF to end up in the same directory as the story file itself, so I added a `path` argument to the `Front Matter`. When you first run a PDF print job, MiKTeX will download and install all the packages it needs, so be prepared for it to pop up a lot of windows needing your input.
 
 This solution works nicely, but it has one small hiccup: I sometimes get widows and orphans upon export. 
 

@@ -18,7 +18,7 @@ If you'd like to use `winget`, install the [App Installer] from the Microsoft St
 
 ### | 1.2. Installing Fonts
 
-I have included `Courier Prime` and `iA Writer Duo` for you to install. To do so, simply open their folders, hit `CTRL-A` to select them all, right click and select `Install` from the options given.
+[This link] will give you the pandoc templates and fonts you need. Included are `Courier Prime` and `iA Writer Duo`. Install them both. We'll get to the pandoc template files a little later.
 
 <br/>
 
@@ -165,6 +165,7 @@ Now, when you call `Pandoc` from the `Markdown Preview Enhanced` extension, it w
 
 [Markdown]: https://www.markdownguide.org/
 [App Installer]: https://www.microsoft.com/en-us/p/app-installer/9nblggh4nns1?activetab=pivot:overviewtab
+[This link]: https://drive.google.com/drive/folders/1Wu5dsovAlW5dyiiXrWgIjjYLrN1lncJ9?usp=sharing
 [1]: https://code.visualstudio.com
 [Better Fountain]: https://marketplace.visualstudio.com/items?itemName=piersdeseilligny.betterfountain
 [syntax guide]: https://www.fountain.io/syntax

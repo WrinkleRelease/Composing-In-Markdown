@@ -24,12 +24,14 @@ If you'd like to use `winget`, install the [App Installer] from the Microsoft St
 
 ### | 1.3. Visual Studio Code
 
-Install Visual Studio Code With `winget`
-Hit the Windows key on the keyboard, type `cmd` and open a CMD window
-In CMD type `winget install --id Microsoft.VisualStudioCode -s winget`
-Or [download and install][1]
+Install Visual Studio Code 
+- With `winget`
+    - Hit the Windows key on the keyboard, type `cmd` and open a CMD window
+    -  In CMD, type `winget install --id Microsoft.VisualStudioCode -s winget`
+    - Hit `Enter`
+- Or [download and install][1]
 
-Once inside of VS, go to `View > Extensions`. Search for and install the extensions below. I've also included some color themes  I find easier to write with:
+Once inside of VS, go to `View > Extensions`. Search for, and install, the extensions below. I've also included some color themes I find easier to write with:
 
 - Better Fountain
   - [Better Fountain] features
@@ -41,7 +43,7 @@ Once inside of VS, go to `View > Extensions`. Search for and install the extensi
 - Gruvbox Theme
 - Gruvbox Material Icon Theme
 
-Lastly, we need to change some information in our `settings.json` file. 
+Lastly, we need to change some information in VS Code's `settings.json` file. 
 1.  Open `Settings` by clicking the gear icon in the bottom left of VS Code.
  2. Once inside `Settings` you will see a small icon in the upper right of that window. It looks like a document with a an arrow curving around it. Click that. 
  3. That should open the `settings.json` file. The code below needs to replace what is currently in your file. Highlight and delete what is in your `.json` file. Next, copy the entirety of the code below (including the `{` and `}` at the beginning and end) and paste in. Save by hitting `CTRL-S`. You might need to restart VS Code.
@@ -83,20 +85,23 @@ Lastly, we need to change some information in our `settings.json` file.
 #### | | 1.4.1.  Install pandoc
 
 Pandoc is what converts our MD documents into DOCX or PDF. It uses templates to format the MD into manuscript format.
-
-- In CMD, type `winget install --name Pandoc -e -s winget`
+- Install using `winget`
+    - In CMD, type `winget install --name Pandoc -e -s winget`
 - Or [download and install][2]
-- Next, open Windows Explorer and traverse to `C:\users\[username]\AppData\Roaming\pandoc` and create the folders `\pandoc\templates` if they do not exist.
-    - place `reference.docx` and `references.odt` inside of `\Roaming\pandoc`. 
-    - Place `story.latex` inside `\Romaing\pandoc\templates\`
+
+ Once installed, open Windows Explorer and traverse to `C:\users\[username]\AppData\Roaming\pandoc` and create the folders `\pandoc\templates` if they do not exist.
+- Place `reference.docx` and `references.odt` inside of `\Roaming\pandoc`. 
+- Place `story.latex` inside `\Romaing\pandoc\templates\`
   
 #### | | 1.4.2. Install MikTeX
 
 MiKTeX is a LaTeX text setting system for Windows. It runs the modules pandoc needs.
 
-- In CMD, type `winget install --name MiKTeX -e -s winget`
+- Install using `winget`
+    - In CMD, type `winget install --name MiKTeX -e -s winget`
 - Or [download and install][3]
-- Once installed, run MiKTeX Console, check for updates and install them.
+
+ Once installed, run MiKTeX Console (you can find it in the Start Menu), check for updates and install them.
 
 <br/> 
 

@@ -34,10 +34,7 @@ Install Visual Studio Code
 Once inside of VS, go to `View > Extensions`. Search for, and install, the extensions below. I've also included some color themes I find easier to write with:
 
 - Better Fountain
-  - [Better Fountain] features
-  - Fountain screenplay [syntax guide]
 - Markdown Fiction Writing
-  - [Markdown Fiction Writing] guide
 - Markdown Preview Enhanced
 - Spell Right
 - Gruvbox Theme
@@ -203,6 +200,13 @@ Change your `output` flag in the `Front Matter` to the following:
 output: word_document
 ```
 Now, when you call `Pandoc` from the `Markdown Preview Enhanced` extension, it will generate a DOCX file. Go into the file, correct your word count, make sure everything is in `Courier Prime`, check the formatting situation, and change what needs changing. Output to PDF and you're done.
+
+<br/>
+
+## 3. Links
+- [Better Fountain] features
+- Fountain screenplay [syntax guide]
+- [Markdown Fiction Writing] guide
 
 [Markdown]: https://www.markdownguide.org/
 [App Installer]: https://www.microsoft.com/en-us/p/app-installer/9nblggh4nns1?activetab=pivot:overviewtab

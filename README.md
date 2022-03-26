@@ -86,7 +86,7 @@ Pandoc is what converts our MD documents into DOCX or PDF. It uses templates to 
     - In CMD, type `winget install --name Pandoc -e -s winget`
 - Or [download and install][2]
 
- Once installed, open Windows Explorer and traverse to `C:\users\[username]\AppData\Roaming\pandoc` and create the folders `\pandoc\templates` if they do not exist.
+ Once installed, open Windows Explorer and traverse to `C:\users\[username]\AppData\Roaming\` and create the folders `\pandoc\templates` if they do not exist.
 - Place `reference.docx` and `references.odt` inside of `\Roaming\pandoc`. 
 - Place `story.latex` inside `\Romaing\pandoc\templates\`
   

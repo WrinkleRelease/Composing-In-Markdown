@@ -1,8 +1,8 @@
 # Composing Fiction & Scripts with Markdown
 
-You can find out more on [Markdown], including a style guide, at the linked website. I've looked at a lot of different Markdown editors (and there are a lot out there, even for fiction writers), but all the truly great ones are on the Mac and they all cost money.
+Markdown files are simply plain text files with flags that a Markdown reader recognizes as format commands. That's it. Nothing fancy.  Being plain text, they are future-proof. Markdown files use the extension `.md` or `.markdown`. I've looked at a lot of different Markdown editors (and there are a lot out there, even for fiction writers), but all the truly great ones are on the Mac and they all cost money. This solution gets the job done fairly well on the cheap, and it leaves you immune to any format wars.
 
-This solution gets the job done fairly well on the cheap, and it leaves you immune to any format wars. Markdown files are simply plain text files with flags that a Markdown reader recognizes as format commands. That's it. Nothing fancy.  Being plain text they are future-proof. Markdown files use the extension `.md` or `.markdown`.
+You can find out more on [Markdown], including a style guide, at the linked website.
 
 ## 1. Getting Set Up
 

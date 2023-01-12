@@ -3,6 +3,7 @@
 [//]: # (link: https://github.com/WrinkleRelease/Composing-In-Markdown)
 [//]: # (tags: markdown, writing, markdown-editor)
 
+<a id="introduction"></a>
 # Composing Fiction & Scripts with Markdown
 
 Markdown files are simply plain text files with flags that a Markdown viewer recognizes as format commands. That's it. Nothing fancy. Being plain text, these files are future-proof and can always be opened by any reader capable of reading plain text, such as Notepad, Notepad++, VIM, etc. Markdown files use the extension `.md` or `.markdown`. 
@@ -11,8 +12,10 @@ I've looked at a lot of different Markdown editors (and there are a lot out ther
 
 You can find more about Markdown, including a style guide, [here].
 
+<a id="1.0"></a>
 ## 1. Getting Set Up
 
+<a id="1.1"></a>
 ### | 1.1.  Installing `winget`
 
 `winget` is a command line package manager for CMD or PowerShell, much like `apt-get` in Linux.
@@ -21,14 +24,16 @@ This step is optional, but it's a nice tool that makes some tasks, including app
 
 `winget` comes with Windows 11. If you are on Windows 10, you'll need to install the [App Installer] from the Microsoft Store first.
 
-<br/>
+<br></a>
 
+<a id="1.2"></a>
 ### | 1.2. Installing Fonts
 
-Download the [latest release] to get the pandoc templates and fonts you need. Included are `Courier Prime` and `iA Writer Duo`. Fully install them both. We'll get to the pandoc template files in [1.4.1](#pandoc).
+Download the [latest release] to get the pandoc templates and fonts you need. Included are `Courier Prime` and `iA Writer Duo`. Fully install them both. We'll get to the pandoc template files in [1.4.1](#1.4.1).
 
-<br/>
+<br></a>
 
+<a id="1.3"></a>
 ### | 1.3. Visual Studio Code
 
 Install Visual Studio Code 
@@ -82,12 +87,11 @@ Lastly, we need to change some information in VS Code's `settings.json` file.
 
 }
 ```
-<br/>
-
+<br></a>
+<a id="1.4"></a>
 ### | 1.4. Final Installations
 
-<a id="pandoc"></a>
-
+<a id="1.4.1"></a>
 #### | | 1.4.1.  Install pandoc
 
 Pandoc is what converts our MD documents into DOCX or PDF. It uses templates to format the MD into manuscript format.
@@ -99,8 +103,9 @@ Pandoc is what converts our MD documents into DOCX or PDF. It uses templates to 
 - Place `reference.docx` and `references.odt` inside of `\Roaming\pandoc`. 
 - Place `story.latex` inside `\Roaming\pandoc\templates\`
 
-<br/>
+<br></a>
 
+<a id="1.4.2"></a>
 #### | | 1.4.2. Install MikTeX
 
 MiKTeX is a LaTeX text setting system for Windows. It runs the modules pandoc needs.
@@ -111,26 +116,28 @@ MiKTeX is a LaTeX text setting system for Windows. It runs the modules pandoc ne
 
  Once installed, run MiKTeX Console (you can find it in the Start Menu), check for updates and install them.
 
-<br/>
+<br></a>
 
+<a id="2.0"></a>
 ## 2. Using Visual Studio Code
 
 1. You can open a *file* or a *folder*. The folder option is nice since all the documents you have in it will be available. This is helpful if you're writing many short stories or a book with chapters. When a folder is open it is called a *workspace*. You can even save a workspace out as a file for the future.
 
-<br/>
+<br></a>
 
 2. You an always preview the document you are currently working on by hitting `CTRL-K V`. Keep in mind, this notation means you hit `CTRL-K`, let go, then hit `V` (if the notation reads `CTRL+K+V` or `CTRL-K-V` then you hit them all together).
 
-<br/>
+<br></a>
 
 3. Go to Zen Mode by hitting `CTRL-K Z`.
 
-<br/>
+<br></a>
 
 4. `Markdown Fiction Writing` features a Writing Mode. It dims all your text except the paragraph you are currently working on. You toggle it on and off using the lightning bolt icon on the bottom bar of VSC.
 
-<br/>
+<br></a>
 
+<a id="2.1"></a>
 ### | 2.1. Writing & Printing a Script
 
 `Better Fountain` is very easy to use for script writing. When starting a file, simply choose the language as `Fountain`. This extension even prints to PDF from inside VSC in the proper format. Following the syntax examples on their website will give you a good start. 
@@ -154,8 +161,9 @@ BL:
 ```
 In `Fountain` syntax, the `===` immediately following the relevant text indicates the end of the `Front Matter` and beginning of the document proper.
 
-<br/>
+<br></a>
 
+<a id="2.2"></a>
 ### | 2.2. Writing & Printing Manuscripts
 
 Writing prose in Markdown is easy. There is very little we need to format as all of that is done upon export. the `Front Matter` for Markdown is slightly different. Below is an example. Notice that it begins and ends with `---`.
@@ -183,8 +191,9 @@ output:
 ```
 Some of the information here is for `pandoc` to use upon PDF render and some is for me (such as revision number). 
 
-<br/>
+<br></a>
 
+<a id="2.2.1"></a>
 #### | | 2.2.1.  Printing to PDF
 The `Markdown Preview Enhanced` extension allows us to call `pandoc` without having to use the command line. Right clicking on the preview window shows output options. We'll be using the `Pandoc` option. We tell `Pandoc` what type of document to make in the `Front Matter` of our MD file.
 
@@ -201,8 +210,9 @@ This solution works nicely, but it has one small hiccup: I sometimes get widows 
 
 The only way I have found to solve this, if it happens, is to export to a DOCX file and *then* make the PDF from that inside of Word.
 
-<br/>
+<br></a>
 
+<a id="2.2.2"></a>
 #### | | 2.2.2. Printing to DOCX
 Remember the `reference.docx` file you put inside of the `Roaming\pandoc` folder? Open it and change the header information on the title page to your information.
 
@@ -212,8 +222,8 @@ output: word_document
 ```
 Now, when you call `Pandoc` from the `Markdown Preview Enhanced` extension, it will generate a DOCX file. Go into the file, correct your word count, make sure everything is in `Courier Prime`, check the formatting situation, and change what needs changing. Output to PDF and you're done.
 
-<br/>
-
+<br></a>
+<a id="3.0"></a>
 ## 3. Links
 - [Better Fountain] features
 - Fountain screenplay [syntax guide]

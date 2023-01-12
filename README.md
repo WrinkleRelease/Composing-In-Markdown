@@ -20,7 +20,7 @@ This step is optional, but it's a nice tool that makes some tasks, including app
 
 ### | 1.2. Installing Fonts
 
-[This link] will give you the pandoc templates and fonts you need. Included are `Courier Prime` and `iA Writer Duo`. Install them both. We'll get to the pandoc template files in [1.4.1](#pandoc).
+Download the [latest release] to get the pandoc templates and fonts you need. Included are `Courier Prime` and `iA Writer Duo`. Fully install them both. We'll get to the pandoc template files in [1.4.1](#pandoc).
 
 <br/>
 
@@ -91,7 +91,7 @@ Pandoc is what converts our MD documents into DOCX or PDF. It uses templates to 
 
  Once installed, open Windows Explorer and traverse to `C:\users\[username]\AppData\Roaming\` and create the folders `\pandoc\templates` if they do not exist.
 - Place `reference.docx` and `references.odt` inside of `\Roaming\pandoc`. 
-- Place `story.latex` inside `\Romaing\pandoc\templates\`
+- Place `story.latex` inside `\Roaming\pandoc\templates\`
   
 #### | | 1.4.2. Install MikTeX
 
@@ -213,7 +213,7 @@ Now, when you call `Pandoc` from the `Markdown Preview Enhanced` extension, it w
 
 [Markdown]: https://www.markdownguide.org/
 [App Installer]: https://www.microsoft.com/en-us/p/app-installer/9nblggh4nns1?activetab=pivot:overviewtab
-[This link]: https://drive.google.com/drive/folders/1Wu5dsovAlW5dyiiXrWgIjjYLrN1lncJ9?usp=sharing
+[latest release]: https://github.com/WrinkleRelease/Composing-In-Markdown/releases/tag/v1.0.0
 [1]: https://code.visualstudio.com
 [Better Fountain]: https://marketplace.visualstudio.com/items?itemName=piersdeseilligny.betterfountain
 [syntax guide]: https://www.fountain.io/syntax

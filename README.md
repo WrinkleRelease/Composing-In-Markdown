@@ -1,3 +1,8 @@
+[//]: # (title: Composing Fiction & Scripts in Markdown)
+[//]: # (date: 01-12-23)
+[//]: # (link: https://github.com/WrinkleRelease/Composing-In-Markdown)
+[//]: # (tags: markdown, writing, markdown-editor)
+
 # Composing Fiction & Scripts with Markdown
 
 Markdown files are simply plain text files with flags that a Markdown viewer recognizes as format commands. That's it. Nothing fancy. Being plain text, these files are future-proof and can always be opened by any reader capable of reading plain text, such as Notepad, Notepad++, VIM, etc. Markdown files use the extension `.md` or `.markdown`. 
@@ -27,7 +32,7 @@ Download the [latest release] to get the pandoc templates and fonts you need. In
 ### | 1.3. Visual Studio Code
 
 Install Visual Studio Code 
-- With `winget`
+- With `winget`:
     - Hit the Windows key on the keyboard, type `cmd` and open a CMD window
     -  In CMD, type `winget install --id Microsoft.VisualStudioCode -s winget`
     - Hit `Enter`
@@ -82,28 +87,31 @@ Lastly, we need to change some information in VS Code's `settings.json` file.
 ### | 1.4. Final Installations
 
 <a id="pandoc"></a>
+
 #### | | 1.4.1.  Install pandoc
 
 Pandoc is what converts our MD documents into DOCX or PDF. It uses templates to format the MD into manuscript format.
-- Install using `winget`
+- Install using `winget`:
     - In CMD, type `winget install --name Pandoc -e -s winget`
 - Or [download and install][2]
 
  Once installed, open Windows Explorer and traverse to `C:\users\[username]\AppData\Roaming\` and create the folders `\pandoc\templates` if they do not exist.
 - Place `reference.docx` and `references.odt` inside of `\Roaming\pandoc`. 
 - Place `story.latex` inside `\Roaming\pandoc\templates\`
-  
+
+<br/>
+
 #### | | 1.4.2. Install MikTeX
 
 MiKTeX is a LaTeX text setting system for Windows. It runs the modules pandoc needs.
 
-- Install using `winget`
+- Install using `winget`:
     - In CMD, type `winget install --name MiKTeX -e -s winget`
 - Or [download and install][3]
 
  Once installed, run MiKTeX Console (you can find it in the Start Menu), check for updates and install them.
 
-<br/> 
+<br/>
 
 ## 2. Using Visual Studio Code
 

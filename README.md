@@ -4,7 +4,7 @@ Markdown files are simply plain text files with flags that a Markdown viewer rec
 
 I've looked at a lot of different Markdown editors (and there are a lot out there, even for fiction writers), but all the truly great ones cost money. The solution presented here gets the job done on the cheap while leaving you immune to any format wars.
 
-You can read more about [Markdown], including a style guide, at the linked website.
+You can find more about Markdown, including a style guide, [here].
 
 ## 1. Getting Set Up
 
@@ -211,7 +211,7 @@ Now, when you call `Pandoc` from the `Markdown Preview Enhanced` extension, it w
 - Fountain screenplay [syntax guide]
 - [Markdown Fiction Writing] guide
 
-[Markdown]: https://www.markdownguide.org/
+[here]: https://www.markdownguide.org/
 [App Installer]: https://www.microsoft.com/en-us/p/app-installer/9nblggh4nns1?activetab=pivot:overviewtab
 [latest release]: https://github.com/WrinkleRelease/Composing-In-Markdown/releases/tag/v1.0.0
 [1]: https://code.visualstudio.com

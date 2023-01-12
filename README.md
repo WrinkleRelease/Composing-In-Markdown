@@ -1,24 +1,26 @@
 # Composing Fiction & Scripts with Markdown
 
-Markdown files are simply plain text files with flags that a Markdown reader recognizes as format commands. That's it. Nothing fancy.  Being plain text, they are future-proof. Markdown files use the extension `.md` or `.markdown`. I've looked at a lot of different Markdown editors (and there are a lot out there, even for fiction writers), but all the truly great ones are on the Mac and they all cost money. This solution gets the job done fairly well on the cheap, and it leaves you immune to any format wars.
+Markdown files are simply plain text files with flags that a Markdown viewer recognizes as format commands. That's it. Nothing fancy. Being plain text, these files are future-proof and can always be opened by any reader capable of reading plain text, such as Notepad, Notepad++, VIM, etc. Markdown files use the extension `.md` or `.markdown`. 
 
-You can find out more on [Markdown], including a style guide, at the linked website.
+I've looked at a lot of different Markdown editors (and there are a lot out there, even for fiction writers), but all the truly great ones cost money. The solution presented here gets the job done on the cheap while leaving you immune to any format wars.
+
+You can read more about [Markdown], including a style guide, at the linked website.
 
 ## 1. Getting Set Up
 
 ### | 1.1.  Installing `winget`
 
-`winget` is a command line package manager for CMD or PowerShell, much like `apt-get` for Terminal in Linux.
+`winget` is a command line package manager for CMD or PowerShell, much like `apt-get` in Linux.
 
-This step is optional, but it's a nice tool that  makes some tasks, including application installations, more convenient.
+This step is optional, but it's a nice tool that makes some tasks, including application installations, much more convenient.
 
-If you'd like to use `winget`, install the [App Installer] from the Microsoft Store.
+`winget` comes with Windows 11. If you are on Windows 10, you'll need to install the [App Installer] from the Microsoft Store first.
 
 <br/>
 
 ### | 1.2. Installing Fonts
 
-[This link] will give you the pandoc templates and fonts you need. Included are `Courier Prime` and `iA Writer Duo`. Install them both. We'll get to the pandoc template files a little later.
+[This link] will give you the pandoc templates and fonts you need. Included are `Courier Prime` and `iA Writer Duo`. Install them both. We'll get to the pandoc template files in [1.4.1](#pandoc).
 
 <br/>
 
@@ -79,6 +81,7 @@ Lastly, we need to change some information in VS Code's `settings.json` file.
 
 ### | 1.4. Final Installations
 
+<a id="pandoc"></a>
 #### | | 1.4.1.  Install pandoc
 
 Pandoc is what converts our MD documents into DOCX or PDF. It uses templates to format the MD into manuscript format.

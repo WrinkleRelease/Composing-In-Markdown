@@ -230,9 +230,6 @@ Now, when you call `Pandoc` from the `Markdown Preview Enhanced` extension, it w
 - Fountain [syntax guide]
 - [Markdown Fiction Writing] guide
 
-## 4. Acknowledgements
-
-
 [readme]: https://raw.githubusercontent.com/WrinkleRelease/Composing-In-Markdown/main/README.md
 [markdownguide.org]: https://www.markdownguide.org/
 [App Installer]: https://www.microsoft.com/en-us/p/app-installer/9nblggh4nns1?activetab=pivot:overviewtab

@@ -236,7 +236,7 @@ Now, when you call `Pandoc` from the `Markdown Preview Enhanced` extension, it w
 [readme]: https://raw.githubusercontent.com/WrinkleRelease/Composing-In-Markdown/main/README.md
 [markdownguide.org]: https://www.markdownguide.org/
 [App Installer]: https://www.microsoft.com/en-us/p/app-installer/9nblggh4nns1?activetab=pivot:overviewtab
-[latest release]: https://github.com/WrinkleRelease/Composing-In-Markdown/releases/tag/v1.0.0
+[latest release]: https://github.com/WrinkleRelease/Composing-In-Markdown/releases/tag/v1.0.2
 [features]: https://marketplace.visualstudio.com/items?itemName=piersdeseilligny.betterfountain
 [syntax guide]: https://www.fountain.io/syntax
 [Markdown Fiction Writing]: https://zoctarine.github.io/vscode-fiction-writer/

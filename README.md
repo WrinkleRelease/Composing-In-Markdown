@@ -9,7 +9,7 @@
 
 This guide is intended to help writers future-proof their work by keeping files always readable and  accessible without sacrificing usability and workflow. For those who can't afford *Final Draft* or *Scrivener*, or who don't want to get locked into a proprietary format, I hope you find this helpful.
 
-This guide is targeted towards Windows users. Similar solutions for Linux and Mac exist. 
+This guide is targeted towards Windows users. All the programs listed here (Visual Studio Code, Pandoc, and MikTeX) are available for macOS and Linux, though settings and install commands will be different.
 
 ### | 1.1 What is Markdown?
 

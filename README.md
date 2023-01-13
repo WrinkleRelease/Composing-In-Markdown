@@ -7,9 +7,9 @@
 
 ## 1. Purpose
 
-This guide is intended to help writers future-proof their work by keeping files always readable and  accessible without sacrificing usability and workflow. For those who can't afford Final Draft or Scrivener, or who don't want to get locked into a proprietary format, I hope you find this helpful.
+This guide is intended to help writers future-proof their work by keeping files always readable and  accessible without sacrificing usability and workflow. For those who can't afford *Final Draft* or *Scrivener*, or who don't want to get locked into a proprietary format, I hope you find this helpful.
 
-This guide is targeted towards Windows users. Similar solutions for Linux and Mac exists. 
+This guide is targeted towards Windows users. Similar solutions for Linux and Mac exist. 
 
 ### | 1.1 What is Markdown?
 
@@ -35,9 +35,9 @@ This step is optional, but it's a nice tool that makes some tasks, including app
 
 <br>
 
-### | 2.2. Installing Fonts
+### | 2.2. Installing Fonts & Templates
 
-Download the [latest release] to get the pandoc templates and fonts you need. Included are `Courier Prime` and `iA Writer Duo`. Fully install them both. We'll get to the pandoc template files in [1.4.1](#1.4.1).
+Download the [latest release] of this guide to get the pandoc templates and fonts you need. The included fonts are `Courier Prime` and `iA Writer Duo`. Fully install them both. We'll get to the pandoc template files in [2.4.1](#2.4.1).
 
 <br>
 
@@ -91,14 +91,14 @@ Lastly, we need to change some information in VS Code's `settings.json` file.
     "breadcrumbs.enabled": false,
     "editor.cursorStyle": "block",
     
-
 }
 ```
 <br></a>
 
 ### | 2.4. Final Installations
 
-<a id="2.4.1"></a>
+<a id="2.4.1"/></a>
+
 #### | | 2.4.1.  Install pandoc
 
 Pandoc is what converts our MD documents into DOCX or PDF. It uses templates to format the MD into manuscript format.
@@ -112,7 +112,6 @@ Pandoc is what converts our MD documents into DOCX or PDF. It uses templates to 
 
 <br></a>
 
-<a id="2.4.2"></a>
 #### | | 2.4.2. Install MikTeX
 
 MiKTeX is a LaTeX text setting system for Windows. It runs the modules pandoc needs.
